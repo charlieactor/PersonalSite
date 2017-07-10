@@ -1,27 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <link type="text/css" rel="stylesheet" href="css/mainStyles.css" />
-    <title>About</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Charlie Actor</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/mainStyles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet">
   </head>
+
   <body>
-    <a href="index.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="resume.html">Résumé</a>
-    <a href="projects.html">Projects</a>
-    <a href="labs.html">Labs</a>
-
-    <h1>Charlie Actor</h1>
-
+    <div class="navbar">
+    <nav>
+        <span>Charlie Actor - Full Stack Java Developer</span>
+        <a href="index.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="resume.html">Résumé</a>
+        <a href="projects.html">Projects</a>
+        <a href="labs.html">Labs</a>
+    </nav>
+  </div>
+  <hr>
+    <h1 class="text-center">About Charlie</h1>
     <div>
-      <p>Charlie Actor refuses to act, so try to refrain from asking. If you do ask, however, he'll understand.</p>
-      <p>Charlie has always loved computers and technology, as well as music and sound. After working in the audio field
-        for several years, Charlie found that he had fallen into a career path that was both repetitive and mind-numbing.
-
-        After two years of making radio advertisements in both English and Spanish (and eating lots of tacos), Charlie
+      <div class="col-md-6">
+        <img id="chuck" src="images/charlie.JPG" class="img-circle" width="300px"/>
+        <hr>
+        <p class="text-center">Charlie Actor refuses to act, so try to refrain from asking. <br>If you simply must ask, however, he will understand.</p>
+      </div>
+      <div class="col-md-6">
+        <img id="chuck" src="images/headshot.jpg" class="img-circle" width="300px"/>
+        <hr>
+      <p>Charlie has always loved computers and technology, as well as music and sound. <br><br>After working in the audio field
+        for several years, Charlie found that he had fallen into a career path that was both repetitive and mind-numbing.<br><br>
+        After two years of making radio advertisements in both English and Spanish (the latter involved eating lots of tacos), Charlie
          tried his hand at coding. Finding that he not only was good at coding, but actually enjoyed having
          mental challenges to tackle, he decided to enroll in Skill Distillery - a Java focused coding bootcamp.
+       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
