@@ -8,6 +8,28 @@ p{
 body {
   background-color: #696d72;
 }
+.proj-img {
+  height: 200px;
+  width: auto;
+
+}
+
+.proj1pics {
+  float: left;
+  clear: both;
+  width: 1200px;
+}
+#sta {
+  width: 500px;
+  height; auto;
+}
+
+#submit{
+  background-color: rgb(54, 123, 226);
+  font-family: 'Lemonada', cursive;
+  color: white;
+  text-shadow: horizontal-offset vertical-offset blur color;
+}
 a {
   font-family: 'Lemonada', cursive;
   font-size: 22px;
@@ -16,6 +38,9 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 20px;
   font-family: 'Lemonada', cursive;
   color: rgb(250, 250, 250);
+}
+.proj {
+  text-align: center;
 }
 form {
   font-family: 'Lemonada', cursive;
