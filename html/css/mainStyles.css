@@ -11,7 +11,22 @@ body {
 .proj-img {
   height: 200px;
   width: auto;
+}
 
+#workExperience {
+  font-family: 'Lemonada', cursive;
+  font-size: 16px;
+  color: rgb(240, 234, 99);
+}
+#accomplishments {
+  font-family: 'Lemonada', cursive;
+  font-size: 16px;
+  color: rgb(240, 234, 99);
+}
+#education {
+  font-family: 'Lemonada', cursive;
+  font-size: 16px;
+  color: rgb(240, 234, 99);
 }
 
 .proj1pics {
@@ -19,9 +34,14 @@ body {
   clear: both;
   width: 1200px;
 }
+
 #sta {
   width: 500px;
   height; auto;
+}
+
+#touch{
+  height: 400px;
 }
 
 #submit{
